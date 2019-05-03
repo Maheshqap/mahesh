@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="61" started-at="2019-05-03T07:42:54Z" finished-at="2019-05-03T07:42:54Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="61" started-at="2019-05-03T07:42:54Z" finished-at="2019-05-03T07:42:54Z">
+      <class name="testNGWithParameter.TestNGDataEx">
+        <test-method status="PASS" signature="ParameterTest(java.lang.String)[pri:0, instance:testNGWithParameter.TestNGDataEx@756e4d]" name="ParameterTest" duration-ms="14" started-at="2019-05-03T07:42:54Z" finished-at="2019-05-03T07:42:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaplanet1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ParameterTest -->
+      </class> <!-- testNGWithParameter.TestNGDataEx -->
+    </test> <!-- test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

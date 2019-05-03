@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test thread-count="5" name="test1(failed)">
+    <parameter name="sURL" value="http://apps.qaplanet.in/qahrm/login.php"/>
+    <parameter name="sUN" value="qaplanet1"/>
+    <parameter name="sPWD" value="lab1"/>
+    <classes>
+      <class name="testNGWithParameter.TestNDMulDate">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testNGWithParameter.TestNDMulDate -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

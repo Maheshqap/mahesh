@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Mahesh by packages]">
+  <test thread-count="5" name="testNGWithParameter(failed)">
+    <classes>
+      <class name="testNGWithParameter.TestNGDataEx">
+        <methods>
+          <include name="ParameterTest"/>
+        </methods>
+      </class> <!-- testNGWithParameter.TestNGDataEx -->
+    </classes>
+  </test> <!-- testNGWithParameter(failed) -->
+</suite> <!-- Failed suite [Mahesh by packages] -->
