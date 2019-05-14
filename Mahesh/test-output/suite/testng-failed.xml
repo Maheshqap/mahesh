@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [suite]">
+  <test name="test(failed)">
+    <parameter name="sUN" value="qaplanet1"/>
+    <parameter name="URL" value="http://apps.qaplanet.in/hrm/login.php"/>
+    <parameter name="sPWD" value="lab1"/>
+    <classes>
+      <class name="testNG.TestCasesWithTestNG">
+        <methods>
+          <include name="urlOpen"/>
+          <include name="logout"/>
+          <include name="editEmployee"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- testNG.TestCasesWithTestNG -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [suite] -->

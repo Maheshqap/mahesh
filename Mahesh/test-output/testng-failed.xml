@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+  <test name="Default test(failed)">
     <classes>
-      <class name="testNG.Example1">
+      <class name="testNG.TestCasesWithTestNG">
         <methods>
-          <include name="Method"/>
-          <include name="method1"/>
-          <include name="method4"/>
-          <include name="method3"/>
-          <include name="method2"/>
+          <include name="urlOpen"/>
+          <include name="logout"/>
+          <include name="delete"/>
+          <include name="quitClose"/>
+          <include name="Login"/>
         </methods>
-      </class> <!-- testNG.Example1 -->
+      </class> <!-- testNG.TestCasesWithTestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

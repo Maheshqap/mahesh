@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "suite">
+<test name = "test">
+<parameter name = "URL" value = "http://apps.qaplanet.in/hrm/login.php">
+<parameter name = "sPWD" value = "lab1">
+<parameter name = "sUN" value = "qaplanet1">
+<classes>
+<class name = "testNG.TestCasesWithTestNG">
+</class>
+</classes>
+</parameter>
+</parameter>
+</parameter>
+</test>
+</suite>

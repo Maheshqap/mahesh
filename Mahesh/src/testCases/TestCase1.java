@@ -45,41 +45,41 @@ public class TestCase1 {
 		WebElement ObjClear = d.findElement(By.name("clear"));
 
 		//Verify User Name field
-		if(ObjUn.isDisplayed())
-		{
-			System.out.println("User Name field Displayed");
-		}
-		else
-			System.out.println("Failed to display User Name");
+				if(ObjUn.isDisplayed())
+				{
+					System.out.println("User Name field Displayed");
+				}
+				else
+					System.out.println("Failed to display User Name");
 
 
-		//Verify Password field
-		if(ObPWD.isDisplayed())
-		{
-			System.out.println("Password Field displayed");
-		}
-		else
-		{
-			System.out.println("Failed to display Password field");
-		}
-		//Verify Login Button
-		if(ObjLogin.isDisplayed())
-		{
-			System.out.println("Login Button is displayed");
-		}
-		else
-		{
-			System.out.println("Failed to display Login Button");
-		}
-		//Verify Clear Button
-		if(ObjClear.isDisplayed())
-		{
-			System.out.println("Clear button is displayed");
-		}
-		else
-		{
-			System.out.println("Failed to display Clear Button");
-		}
+				//Verify Password field
+				if(ObPWD.isDisplayed())
+				{
+					System.out.println("Password Field displayed");
+				}
+				else
+				{
+					System.out.println("Failed to display Password field");
+				}
+				//Verify Login Button
+				if(ObjLogin.isDisplayed())
+				{
+					System.out.println("Login Button is displayed");
+				}
+				else
+				{
+					System.out.println("Failed to display Login Button");
+				}
+				//Verify Clear Button
+				if(ObjClear.isDisplayed())
+				{
+					System.out.println("Clear button is displayed");
+				}
+				else
+				{
+					System.out.println("Failed to display Clear Button");
+				}
 		//To enter User ID
 		//Create string for User name and password
 		String sUN="qaplanet1";

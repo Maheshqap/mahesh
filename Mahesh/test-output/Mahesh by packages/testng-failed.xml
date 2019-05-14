@@ -8,6 +8,11 @@
           <include name="ParameterTest"/>
         </methods>
       </class> <!-- testNGWithParameter.TestNGDataEx -->
+      <class name="testNGWithParameter.TestNDMulDate">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testNGWithParameter.TestNDMulDate -->
     </classes>
   </test> <!-- testNGWithParameter(failed) -->
 </suite> <!-- Failed suite [Mahesh by packages] -->

@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class testCase2 {
 	public static void main(String[] args)throws Exception
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\QAP18\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:\\Selenium Softwares\\chromedriver.exe");
 		ChromeDriver Driver=new ChromeDriver();
 		//TO maximize browser
 		Driver.manage().window().maximize();

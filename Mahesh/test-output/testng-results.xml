@@ -1,24 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
+    <line>
+      <![CDATA[Action to PIM]]>
+    </line>
+    <line>
+      <![CDATA[Add Employee Clicked using Mouse Actions]]>
+    </line>
+    <line>
+      <![CDATA[PIM : Add Employee displayed]]>
+    </line>
+    <line>
+      <![CDATA[Last Name Empty! displayed]]>
+    </line>
+    <line>
+      <![CDATA[First Name Empty! displayed]]>
+    </line>
+    <line>
+      <![CDATA[Personal Details displayed]]>
+    </line>
+    <line>
+      <![CDATA[Employee Information displayed]]>
+    </line>
+    <line>
+      <![CDATA[Action to PIM]]>
+    </line>
+    <line>
+      <![CDATA[Employee List selected]]>
+    </line>
   </reporter-output>
-  <suite name="Suite1" duration-ms="61" started-at="2019-05-03T07:42:54Z" finished-at="2019-05-03T07:42:54Z">
+  <suite name="Default suite" duration-ms="73273" started-at="2019-05-13T10:08:05Z" finished-at="2019-05-13T10:09:19Z">
     <groups>
     </groups>
-    <test name="test1" duration-ms="61" started-at="2019-05-03T07:42:54Z" finished-at="2019-05-03T07:42:54Z">
-      <class name="testNGWithParameter.TestNGDataEx">
-        <test-method status="PASS" signature="ParameterTest(java.lang.String)[pri:0, instance:testNGWithParameter.TestNGDataEx@756e4d]" name="ParameterTest" duration-ms="14" started-at="2019-05-03T07:42:54Z" finished-at="2019-05-03T07:42:54Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[qaplanet1]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="73273" started-at="2019-05-13T10:08:05Z" finished-at="2019-05-13T10:09:19Z">
+      <class name="testNG.TestCasesWithTestNG">
+        <test-method status="PASS" signature="urlOpen()[pri:0, instance:testNG.TestCasesWithTestNG@1f116cc]" name="urlOpen" is-config="true" duration-ms="9418" started-at="2019-05-13T15:38:05Z" finished-at="2019-05-13T15:38:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ParameterTest -->
-      </class> <!-- testNGWithParameter.TestNGDataEx -->
-    </test> <!-- test1 -->
-  </suite> <!-- Suite1 -->
+        </test-method> <!-- urlOpen -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:testNG.TestCasesWithTestNG@1f116cc]" name="Login" is-config="true" duration-ms="6141" started-at="2019-05-13T15:38:15Z" finished-at="2019-05-13T15:38:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="addEmployee()[pri:1, instance:testNG.TestCasesWithTestNG@1f116cc]" name="addEmployee" duration-ms="12572" started-at="2019-05-13T15:38:21Z" finished-at="2019-05-13T15:38:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Action to PIM]]>
+            </line>
+            <line>
+              <![CDATA[Add Employee Clicked using Mouse Actions]]>
+            </line>
+            <line>
+              <![CDATA[PIM : Add Employee displayed]]>
+            </line>
+            <line>
+              <![CDATA[Last Name Empty! displayed]]>
+            </line>
+            <line>
+              <![CDATA[First Name Empty! displayed]]>
+            </line>
+            <line>
+              <![CDATA[Personal Details displayed]]>
+            </line>
+            <line>
+              <![CDATA[Employee Information displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:testNG.TestCasesWithTestNG@1f116cc]" name="logout" is-config="true" duration-ms="2567" started-at="2019-05-13T15:38:34Z" finished-at="2019-05-13T15:38:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:testNG.TestCasesWithTestNG@1f116cc]" name="Login" is-config="true" duration-ms="5235" started-at="2019-05-13T15:38:36Z" finished-at="2019-05-13T15:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="editEmployee()[pri:2, instance:testNG.TestCasesWithTestNG@1f116cc]" name="editEmployee" duration-ms="24981" started-at="2019-05-13T15:38:41Z" finished-at="2019-05-13T15:39:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Action to PIM]]>
+            </line>
+            <line>
+              <![CDATA[Employee List selected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editEmployee -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:testNG.TestCasesWithTestNG@1f116cc]" name="logout" is-config="true" duration-ms="2611" started-at="2019-05-13T15:39:06Z" finished-at="2019-05-13T15:39:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:testNG.TestCasesWithTestNG@1f116cc]" name="Login" is-config="true" duration-ms="5000" started-at="2019-05-13T15:39:09Z" finished-at="2019-05-13T15:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="delete()[pri:3, instance:testNG.TestCasesWithTestNG@1f116cc]" name="delete" duration-ms="995" started-at="2019-05-13T15:39:14Z" finished-at="2019-05-13T15:39:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:testNG.TestCasesWithTestNG@1f116cc]" name="logout" is-config="true" duration-ms="2487" started-at="2019-05-13T15:39:15Z" finished-at="2019-05-13T15:39:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="quitClose()[pri:0, instance:testNG.TestCasesWithTestNG@1f116cc]" name="quitClose" is-config="true" duration-ms="1225" started-at="2019-05-13T15:39:18Z" finished-at="2019-05-13T15:39:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitClose -->
+      </class> <!-- testNG.TestCasesWithTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
